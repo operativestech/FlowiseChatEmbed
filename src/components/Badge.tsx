@@ -47,14 +47,16 @@ export const Badge = (props: Props) => {
       Powered by
       <a
         ref={liteBadge}
-        href={'www.aimicromind.com'}
+        href={'http://aimicromind.com'}
         target="_blank"
         rel="noopener noreferrer"
         class="lite-badge"
         id="lite-badge"
         style={{ 'font-weight': 'bold', color: props.poweredByTextColor ?? defaultTextColor }}
       >
-        <span ><p> AI MicroMind</p></span>
+        <span>
+          <p> AI MicroMind</p>
+        </span>
       </a>
     </span>
   );
